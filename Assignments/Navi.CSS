@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.792);
+}
+
+#main{
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
+   background-color: rgb(160, 33, 246);
+   padding: 1rem;
+   padding-bottom: 0px;
+   margin: 0px;
+   font-size: 2rem;
+}
+#main li,a{
+    color: white;
+    text-decoration: none;
+  
+}
+.con{
+    position: relative;
+}
+.inveg{
+    position: absolute;
+    list-style-type: none;
+    /* padding-top: 10px; */
+    padding: 0px;
+    /* top: 35px; */
+    display: none;
+}
+.inveg a{
+    color: rgb(255, 255, 255);
+   
+}
+.inveg li{
+    padding-top: 15px;
+    border-bottom: 2px solid black;
+    width: 100%;
+    background-color: rgb(25, 195, 238);
+}
+.con:hover .inveg{
+    display: block;
+}

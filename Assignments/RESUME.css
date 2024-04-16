@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(#e66465, #9198e5);
+    text-align: center;
+}
+h2{
+    color: white;
+    border: 20px solid black;
+    text-align: center;
+    letter-spacing:10px ;
+    transition: 2s;
+}
+h2:hover{
+    color: black;
+    border: 20px solid white;
+}
+h3{
+    color: white;
+}
+img{
+
+     border: 15px solid black;
+     transition: 2s;
+}
+img:hover{
+    border: 15px solid white;
+}
+p{
+    display: inline;
+    word-spacing:5px;
+    letter-spacing: 1px;
+}
+table,td,th{
+    text-align: center;
+    border: 5px solid white;
+    border-collapse: collapse;
+    background-color: #e66465;
+    transition: 2s;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.designs{
+    border: 15px solid black;
+    transition: 2s;
+}
+.designs:hover{
+    border: 15px solid white;
+    color: black;
+}
+.skills{
+    border: 5px solid white;
+    background-color: #9198e5;
+    color: white;
+}
+#myphoto{
+    height: 20vh;
+}
+#signature{
+    border: 5px solid black;
+}
+#signature,#caption{
+    margin-left: 1350px;
+}

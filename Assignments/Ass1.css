@@ -1,0 +1,50 @@
+
+table,th,td
+{
+    border: 3px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+}
+th{
+    color: blue;
+}
+.qualified{
+    color: greenyellow;
+    background-color: green;
+}
+.disqualified{
+
+    color: darkred;
+    background-color: red;
+}
+#GT{
+    color:pink ;
+}
+#CSK{
+    color:yellow ;
+}
+#LSG{
+    color:darkblue ;
+}
+#MI{
+    color:blue ;
+}
+#RR{
+    color:darkblue ;
+}
+#RCB{
+    color:brown ;
+}
+#KKR{
+    color: gold;
+}
+#PK{
+    color:darkred ;
+}
+#DC{
+    color: aqua;
+}
+#SH{
+    color: orange;
+}

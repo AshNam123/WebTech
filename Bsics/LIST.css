@@ -1,0 +1,34 @@
+/* for changing UL list type
+ ul{
+ list-style-type: square;
+ background-color: indigo;
+ }
+ ol{
+    background-color: firebrick;
+ }
+
+ body{
+    background-color: dodgerblue;
+ }
+ #foot{
+    background-color: mediumaquamarine;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+ #cricket{
+    background-color: mediumorchid;
+    font-family: cursive;
+ } */
+ /*for multicolor*/
+ /* body{
+    
+    background-image: linear-gradient(white,skyblue,darkblue);
+    height: 100vh;
+ } */
+ /*background image*/
+ body
+ {
+    background-image: url(./images/back_img.jpg) ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 100vh;
+ }

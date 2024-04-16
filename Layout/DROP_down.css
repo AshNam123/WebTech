@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(#610fdc,#1303ef);
+    height: 100vh;
+}
+#container{
+    background-color: black;
+    padding:0 0 0 0;
+
+}
+#nav{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    padding: 0;
+    margin: 0;
+    background-color: aquamarine;
+    position: absolute;/*IMportant*/
+    list-style-type: none;
+    display: none;
+}
+#drop:hover #menu{  /*Important*/
+    display: block;
+}
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    transition: 0.5s;
+}
+a:hover{
+    background-color: rebeccapurple;
+    color: black;
+}

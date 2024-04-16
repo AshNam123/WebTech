@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#f40689,#890908);
+    height: 100vh;
+}
+
+a{
+    text-decoration: None;
+    font-size: 24px;
+    color: whitesmoke;
+    transition: 1s;
+}
+a:hover{
+    font-size: 25px;
+    color: brown;
+    transform: rotate(360deg);
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background: linear-gradient(rgb(230, 10, 233),rgb(255,0,0));
+    border: 5px solid black;
+    border-radius: 50px;
+    margin: 10px 10px;
+}
+#left{
+ display: flex;
+ padding-left: 10px;
+}
+#center{
+    display: flex;
+    gap: 25px;
+}
+#right{
+    display: flex;
+    gap: 25px;
+    padding-right: 10px;
+}

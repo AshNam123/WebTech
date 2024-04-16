@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+footer{
+    display: flex;
+    align-items: end; 
+    width: 100%;
+    height: 100vh;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+li{
+    padding: 10px 20px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    transition: 0.5s;
+}
+a:hover{
+    color: aliceblue;
+}
+#container
+{
+    background-color: black;
+    width: 100%;
+    
+}
+#logos i{
+     color: grey;
+     font-size: 25px;
+     transition: 0.5s;
+}
+#logos i:hover{
+    color: aliceblue;
+}
+#Components ul{
+    margin-top: 0;
+}
+#Components li{
+    font-size: 18px;
+    padding-bottom: 30px;
+}

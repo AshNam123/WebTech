@@ -1,0 +1,11 @@
+ul{
+    list-style-type:georgian;
+}
+#actor_hi{
+    color: red;
+    font-size: 20px;
+}
+.actress_hi{
+    color: blueviolet;
+    font-size: 20px;
+}

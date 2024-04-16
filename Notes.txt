@@ -1,0 +1,53 @@
+element selector
+grouping selector
+Class-
+.for multiple elements we can give common classname
+.for single element we can give multiple classname
+.we can acess by using (.classname{}) in css
+
+id - 
+.id should be unique
+.to access use(#Idname{})
+
+
+global/universal selector(*)-To acess everything
+
+pefernce---id>class>elements/grouping(Whichever is mentioned in the last in css)>global
+
+.how to add youtube video to html page using iframe embeed.
+
+
+<-------------------------------css----------------------------->
+<-----------layout------------------>
+
+.inline-it would allow element on same line but wont allow custom width to be aaplied.
+.block-it would allow custom width but wont allow any new element on the line(block).
+
+
+diplay property
+.block-block level element will occuoy entire parent width.but we can provide custom width also but it will
+       not allow other elements in same line.
+       (block property will be implemented on the division only and not on the children of the div or id)
+.inline-it will occupy only content width it will allow other elements in same way.
+        but we can't change the property of width,height.
+.inline-block-it will allow other elements in same line we can give custom width and height property also.
+.flex-Display flex will control all the childrens by default it will make all childrens to
+      single line.
+      (Without display flex justify content is not possible) 
+
+Justify-content
+.will control horizontal placements.
+align-items
+.will control vertical placements.
+gap--used to give space between the items.
+
+Position(Used for drop down)
+-relative-it will occupy space and we can move it any where
+-absolute--not occupy any space and we can move it any where
+-sticky --even after scroll the content will srick to that one place
+
+(Justify-cintent and align-item works with display:flex)
+(body is parent when using Position:absolute to change that make the parent element to Position:relative)
+(when there is only one text in a line we can go for text-align)
+1rem=16px
+[Netflix--9 sections]

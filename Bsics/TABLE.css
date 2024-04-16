@@ -1,0 +1,77 @@
+/* table{
+    border:3px solid grey; 
+    border-collapse: collapse;
+} */
+/*styles-solid,dotted*/
+/* th{
+    border: 2px dotted black;
+}
+td{
+    border: 2px solid grey;
+} */
+table,th,td{
+    border: 2px solid grey;
+    border-collapse: collapse;
+}
+th{
+    color: red;
+}
+ /*Element Selector*/
+/* h1{                    
+    color: yellow;
+} */
+/*Grouping Selector*/
+/* h2,h4{                  
+    color: blue;
+} */
+/*Class selector*/
+/* .India{
+    color:red;
+}
+.abc{
+    
+    font-size: 80px;
+}*/
+#MSD{
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+} 
+h1{
+    color: yellow;
+}
+h1,h2{
+    color: aqua;
+}
+.India{
+    color: brown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Mum{
+    color:blue
+}
+#CSK{
+    color: yellow;
+}
+#Pink{
+    color: purple;
+}
+#RCB{
+    color: burlywood;
+}
+*{
+    color: green;
+}
